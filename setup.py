@@ -84,7 +84,7 @@ setup(
             "coverage",
             "pyfakefs",
             "pytest-cov",
-            "pytest",
+            "pytest < 6",
         ]
     },
     # Conveniently allows one to run the CLI tool as `ioc-scan`
